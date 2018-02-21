@@ -12,6 +12,9 @@
 		29A4AB1C203D25D0007A2646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB1A203D25D0007A2646 /* Main.storyboard */; };
 		29A4AB1E203D25D0007A2646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB1D203D25D0007A2646 /* Assets.xcassets */; };
 		29A4AB21203D25D0007A2646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB1F203D25D0007A2646 /* LaunchScreen.storyboard */; };
+		29A4AB2C203D643B007A2646 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB29203D643B007A2646 /* back.png */; };
+		29A4AB2D203D643B007A2646 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB2A203D643B007A2646 /* forward.png */; };
+		29A4AB2E203D643B007A2646 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A4AB2B203D643B007A2646 /* reload.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		29A4AB1D203D25D0007A2646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29A4AB20203D25D0007A2646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29A4AB22203D25D0007A2646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A4AB29203D643B007A2646 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		29A4AB2A203D643B007A2646 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		29A4AB2B203D643B007A2646 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,19 @@
 				29A4AB1D203D25D0007A2646 /* Assets.xcassets */,
 				29A4AB1F203D25D0007A2646 /* LaunchScreen.storyboard */,
 				29A4AB22203D25D0007A2646 /* Info.plist */,
+				29A4AB28203D643B007A2646 /* icons */,
 			);
 			path = EzWebView;
+			sourceTree = "<group>";
+		};
+		29A4AB28203D643B007A2646 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				29A4AB29203D643B007A2646 /* back.png */,
+				29A4AB2A203D643B007A2646 /* forward.png */,
+				29A4AB2B203D643B007A2646 /* reload.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A4AB2C203D643B007A2646 /* back.png in Resources */,
 				29A4AB21203D25D0007A2646 /* LaunchScreen.storyboard in Resources */,
 				29A4AB1E203D25D0007A2646 /* Assets.xcassets in Resources */,
 				29A4AB1C203D25D0007A2646 /* Main.storyboard in Resources */,
+				29A4AB2E203D643B007A2646 /* reload.png in Resources */,
+				29A4AB2D203D643B007A2646 /* forward.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EzWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vietis.EzWebView;
+				PRODUCT_BUNDLE_IDENTIFIER = tek4fun.EzWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EzWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vietis.EzWebView;
+				PRODUCT_BUNDLE_IDENTIFIER = tek4fun.EzWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

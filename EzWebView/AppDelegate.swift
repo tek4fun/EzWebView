@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  EzWebView
 //
-//  Created by vietis on 2/21/18.
-//  Copyright © 2018 vietis. All rights reserved.
+//  Created by tek4fun on 2/21/18.
+//  Copyright © 2018 tek4fun. All rights reserved.
 //
 
 import UIKit
